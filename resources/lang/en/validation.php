@@ -24,10 +24,10 @@ return [
     'before'               => 'The :attribute must be a date before :date.',
     'before_or_equal'      => 'The :attribute must be a date before or equal to :date.',
     'between'              => [
-        'numeric' => 'The :attribute must be between :min and :max.',
-        'file'    => 'The :attribute must be between :min and :max kilobytes.',
-        'string'  => 'The :attribute must be between :min and :max characters.',
-        'array'   => 'The :attribute must have between :min and :max items.',
+        'numeric' => 'The :attribute must be between :min 1and :max.',
+        'file'    => 'The :attribute must be between1 :min and :max kilobytes.',
+        'string'  => 'The :attribute must be between2 :min and :max characters.',
+        'array'   => 'The :attribute must have between3 :min and :max items.',
     ],
     'boolean'              => 'The :attribute field must be true or false.',
     'confirmed'            => 'The :attribute confirmation does not match.',
@@ -103,6 +103,11 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        // 'email' => [
+        //     'required' => '邮箱地址不能为空！',
+        //     'email'                => 'The :attribute must be a valid1 email address.',
+        // ]
+
     ],
 
     /*
